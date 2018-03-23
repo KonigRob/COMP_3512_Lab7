@@ -2,6 +2,9 @@
 
 int vectorLab::sum(const std::vector<int>& v)
 {
+	if (v.size() == 0) {
+		return -1;
+	}
 	int sum = 0;
 	for (int i = 0; i < v.size(); ++i) {
 		sum += v[i];
@@ -11,6 +14,9 @@ int vectorLab::sum(const std::vector<int>& v)
 
 int vectorLab::max(const std::vector<int>& v)
 {
+	if (v.size() == 0) {
+		return -1;
+	}
 	int max = v[0];
 	for (int i = 0; i < v.size(); ++i) {
 		if (v[i] > max) {
@@ -22,6 +28,9 @@ int vectorLab::max(const std::vector<int>& v)
 
 int vectorLab::min(const std::vector<int>& v)
 {
+	if (v.size() == 0) {
+		return -1;
+	}
 	int min = v[0];
 	for (int i = 0; i < v.size(); ++i) {
 		if (v[0] < min) {
@@ -33,6 +42,9 @@ int vectorLab::min(const std::vector<int>& v)
 
 double vectorLab::average(const std::vector<int>& v)
 {
+	if (v.size() == 0) {
+		return -1.0;
+	}
 	double total = sum(v);
 	return total / v.size();
 }
