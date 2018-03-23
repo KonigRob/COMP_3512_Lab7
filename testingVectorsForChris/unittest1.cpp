@@ -9,21 +9,89 @@ namespace testingVectorsForChris
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestSum1)
 		{
 			vectorLab vl;
 			std::vector<int> v;
 			v.push_back(6);
 			Assert::AreEqual(6, vl.sum(v));
 		}
-		TEST_METHOD(TestMethod2)
+		TEST_METHOD(TestSum2)
 		{
 			vectorLab vl;
 			std::vector<int> v;
 			v.push_back(6);
 			Assert::AreEqual(6, vl.sum(v));
-			v.push_back(4);
-			Assert::AreEqual(10, vl.sum(v));
+		}
+		TEST_METHOD(TestSum3)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestSum4)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMax1)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMax2)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMax3)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMax4)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMin1)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMin2)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMin3)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
+		}
+		TEST_METHOD(TestMin4)
+		{
+			vectorLab vl;
+			std::vector<int> v;
+			v.push_back(6);
+			Assert::AreEqual(6, vl.sum(v));
 		}
 
 		
