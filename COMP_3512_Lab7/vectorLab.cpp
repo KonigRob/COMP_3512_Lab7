@@ -1,5 +1,9 @@
 #include "vectorLab.hpp"
 
+//DESC: Return the sum value of the vector
+//PRE: All numbers entered are positive
+//POST: 
+//Return: a postive int or a -1 if empty
 int vectorLab::sum(const std::vector<int>& v)
 {
 	if (v.size() == 0) {
@@ -12,6 +16,10 @@ int vectorLab::sum(const std::vector<int>& v)
 	return sum;
 }
 
+//DESC: Return the max value of the vector
+//PRE: All numbers entered are positive
+//POST :
+//Return: a postive int or a -1 if empty
 int vectorLab::max(const std::vector<int>& v)
 {
 	if (v.size() == 0) {
@@ -26,6 +34,10 @@ int vectorLab::max(const std::vector<int>& v)
 	return max;
 }
 
+//DESC: Return the min value of the vector
+//PRE : All numbers entered are positive
+//POST :
+//Return: a postive int or a -1 if empty
 int vectorLab::min(const std::vector<int>& v)
 {
 	if (v.size() == 0) {
@@ -33,13 +45,17 @@ int vectorLab::min(const std::vector<int>& v)
 	}
 	int min = v[0];
 	for (int i = 0; i < v.size(); ++i) {
-		if (v[0] < min) {
+		if (v[i] < min) {
 			min = v[i];
 		}
 	}
 	return min;
 }
 
+//DESC: Return the average value of the vector
+//PRE : All numbers entered are positive
+//POST :
+//Return: a postive double or a -1.0 if empty
 double vectorLab::average(const std::vector<int>& v)
 {
 	if (v.size() == 0) {
