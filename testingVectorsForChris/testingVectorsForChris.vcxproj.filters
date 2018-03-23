@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="COMP_3512_Lab7.cpp">
+    <ClCompile Include="unittest1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vectorLab.cpp">
+    <ClCompile Include="..\COMP_3512_Lab7\vectorLab.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vectorLab.hpp">
+    <ClInclude Include="..\COMP_3512_Lab7\vectorLab.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
